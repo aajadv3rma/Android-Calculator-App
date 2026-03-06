@@ -1,11 +1,26 @@
 # 📱 Android Calculator App
 
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![Platform](https://img.shields.io/badge/Platform-Android-green)
+![IDE](https://img.shields.io/badge/IDE-Android%20Studio-blue)
+![License](https://img.shields.io/badge/License-GPL--3.0-red)
+
+---
+
+## ✨ About The Project
+
 A modern **Android Calculator application** built using **Java and Android Studio**.
-The app performs essential arithmetic operations with a clean dark-themed UI and includes a **calculation history system** for tracking previous results.
 
-This project demonstrates core Android development concepts such as **XML UI design, event handling, and implementing calculation logic in Java**.
+The app performs essential arithmetic operations through a clean **dark themed user interface** and includes a **calculation history system** to keep track of previous calculations.
 
-It was created as part of my Android development learning journey and portfolio.
+This project demonstrates important Android development concepts such as:
+
+• XML UI design
+• Event handling for buttons
+• Arithmetic logic implementation in Java
+• Managing calculation history inside an Android app
+
+This project was created as part of my **Android development learning journey and portfolio**.
 
 ---
 
@@ -38,21 +53,27 @@ It was created as part of my Android development learning journey and portfolio.
 
 ## 📷 App Preview
 
-### Main Calculator Screen
-![Main UI](app/screenshots/Main_Ui.png)
-### Calculation History
-![History](app/screenshots/History_Ui.png)
-### Empty History Screen
-![No History](app/screenshots/No_History_Ui.png)
-### Clear History Confirmation
-![Clear History](app/screenshots/Clear_History_Ui.png)
+<p align="center">
+
+<img src="screenshots/Main_Ui.png" width="250">
+<img src="screenshots/History_Ui.png" width="250">
+
+</p>
+
+<p align="center">
+
+<img src="screenshots/No_History_Ui.png" width="250">
+<img src="screenshots/Clear_History_Ui.png" width="250">
+
+</p>
+
 ---
 
 ## 📦 Download APK
 
 You can download and install the APK directly from the **Releases** section.
 
-⬇ Download Latest APK
+⬇ **Download Latest APK**
 https://github.com/aajadv3rma/Android-Calculator-App/releases
 
 ### Installation Steps
@@ -67,7 +88,7 @@ https://github.com/aajadv3rma/Android-Calculator-App/releases
 
 Clone the repository:
 
-```
+```bash
 git clone https://github.com/aajadv3rma/Android-Calculator-App.git
 ```
 
@@ -82,6 +103,12 @@ Open the project in **Android Studio**, allow Gradle to sync, and run the applic
 
 ```
 AVCalculator
+│
+├── screenshots
+│   ├── Main_Ui.png
+│   ├── History_Ui.png
+│   ├── No_History_Ui.png
+│   └── Clear_History_Ui.png
 │
 ├── app
 │   ├── src
@@ -120,7 +147,7 @@ This project helped me understand:
 • Designing user interfaces with XML
 • Handling button click events
 • Implementing calculation logic in Java
-• Managing calculation history in an Android app
+• Managing calculation history in Android apps
 • Android project structure and Gradle build system
 
 ---
@@ -129,9 +156,9 @@ This project helped me understand:
 
 • Scientific calculator functions
 • Improved Material Design UI
-• Animation enhancements
-• Better expression parser for complex calculations
-• Additional advanced features
+• UI animations and transitions
+• Advanced expression parser
+• Additional unique calculator features
 
 ---
 
@@ -147,3 +174,7 @@ https://github.com/aajadv3rma
 ## 📄 License
 
 This project is licensed under the **GPL-3.0 License**.
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
