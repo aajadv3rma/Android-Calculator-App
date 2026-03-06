@@ -1,14 +1,11 @@
 # 📱 Android Calculator App
 
+A modern **Android Calculator application** built using **Java and Android Studio**.
+The app performs essential arithmetic operations with a clean dark-themed UI and includes a **calculation history system** for tracking previous results.
 
+This project demonstrates core Android development concepts such as **XML UI design, event handling, and implementing calculation logic in Java**.
 
-
-\
-
-A simple and modern **Android Calculator application** built using **Java and Android Studio**.
-The app performs essential arithmetic operations through a clean mobile UI and demonstrates core Android development concepts such as **XML layouts, event handling, and calculation logic implementation**.
-
-This project is part of my Android development learning journey and portfolio.
+It was created as part of my Android development learning journey and portfolio.
 
 ---
 
@@ -19,51 +16,50 @@ This project is part of my Android development learning journey and portfolio.
 • Subtraction (−)
 • Multiplication (×)
 • Division (÷)
+• Percentage (%) calculations
 • Decimal number support
-• Clear / Reset functionality
-• Smooth and responsive UI
-• Fast calculation processing
+• Sign toggle (+/−)
+• Calculation history tracking
+• Clear history option with confirmation dialog
+• Clean dark theme interface
+• Fast and responsive UI
 
 ---
 
 ## 🛠 Tech Stack
 
-Language: **Java**
-IDE: **Android Studio**
-UI Design: **XML Layouts**
-Build System: **Gradle**
-Platform: **Android**
+**Language:** Java
+**IDE:** Android Studio
+**UI Design:** XML Layouts
+**Build System:** Gradle
+**Platform:** Android
 
 ---
 
 ## 📷 App Preview
 
-| Calculator UI |
-| ------------- |
-|               |
-
-> Upload screenshots in a folder named **screenshots** inside your repository.
-
-Example structure:
-
-```
-screenshots/
- └── calculator_ui.png
-```
-
+### Main Calculator Screen
+![Main UI](app/screenshots/Main_Ui.png)
+### Calculation History
+![History](app/screenshots/History_Ui.png)
+### Empty History Screen
+![No History](app/screenshots/No_History_Ui.png)
+### Clear History Confirmation
+![Clear History](app/screenshots/Clear_History_Ui.png)
 ---
 
 ## 📦 Download APK
 
-You can download and install the APK directly.
+You can download and install the APK directly from the **Releases** section.
 
-[⬇ Download Latest APK](https://github.com/aajadv3rma/Android-Calculator-App/releases)
+⬇ Download Latest APK
+https://github.com/aajadv3rma/Android-Calculator-App/releases
 
-Steps to install:
+### Installation Steps
 
-1. Download the APK
-2. Allow **Install from Unknown Sources**
-3. Install the application on your Android device
+1. Download the APK file
+2. Enable **Install from Unknown Sources** on your Android device
+3. Install and open the application
 
 ---
 
@@ -75,7 +71,10 @@ Clone the repository:
 git clone https://github.com/aajadv3rma/Android-Calculator-App.git
 ```
 
-Open the project in **Android Studio**, sync Gradle, and run the app on an emulator or a physical device.
+Open the project in **Android Studio**, allow Gradle to sync, and run the application on:
+
+• Android Emulator
+• Physical Android Device
 
 ---
 
@@ -91,7 +90,6 @@ AVCalculator
 │   │       │   └── com
 │   │       │       └── avtech
 │   │       │           └── avcalculator
-│   │       │               └── MainActivity.java
 │   │       │
 │   │       ├── res
 │   │       │   ├── layout
@@ -118,10 +116,11 @@ AVCalculator
 
 This project helped me understand:
 
-• Android activity lifecycle
-• UI design using XML
+• Android Activity Lifecycle
+• Designing user interfaces with XML
 • Handling button click events
 • Implementing calculation logic in Java
+• Managing calculation history in an Android app
 • Android project structure and Gradle build system
 
 ---
@@ -129,9 +128,10 @@ This project helped me understand:
 ## 🔮 Future Improvements
 
 • Scientific calculator functions
-• Dark mode support
-• Material UI improvements
-• Many More Unique Changes 
+• Improved Material Design UI
+• Animation enhancements
+• Better expression parser for complex calculations
+• Additional advanced features
 
 ---
 
