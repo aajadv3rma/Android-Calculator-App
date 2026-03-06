@@ -55,15 +55,17 @@ This project was created as part of my **Android development learning journey an
 
 <p align="center">
 
-<img src="screenshots/Main_Ui.png" width="250">
-<img src="screenshots/History_Ui.png" width="250">
+<p align="center">
+
+<img src="app/screenshots/Main_Ui.png" width="250">
+<img src="app/screenshots/History_Ui.png" width="250">
 
 </p>
 
 <p align="center">
 
-<img src="screenshots/No_History_Ui.png" width="250">
-<img src="screenshots/Clear_History_Ui.png" width="250">
+<img src="app/screenshots/No_History_Ui.png" width="250">
+<img src="app/screenshots/Clear_History_Ui.png" width="250">
 
 </p>
 
