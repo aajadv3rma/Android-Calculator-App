@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AV Calculator</string>
+    <string name="history">History</string>
+    <string name="clear_history">Clear History</string>
+    <string name="no_history">No calculations yet</string>
+    <string name="back">Back</string>
+</resources>

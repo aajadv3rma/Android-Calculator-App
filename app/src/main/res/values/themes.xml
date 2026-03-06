@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AVCalculator" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#FF9F0A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/background_primary</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Base Calculator Button Style -->
+    <style name="CalcButton" parent="Widget.Material3.Button">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <!-- Phone Styles -->
+    <style name="CalcButton.Number">
+        <item name="android:background">@drawable/btn_number_ripple</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="CalcButton.Operator">
+        <item name="android:background">@drawable/btn_operator_ripple</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="CalcButton.Function">
+        <item name="android:background">@drawable/btn_function_ripple</item>
+        <item name="android:textColor">@color/text_function</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="CalcButton.Equals">
+        <item name="android:background">@drawable/btn_equals_ripple</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Tablet Styles (Larger Text) -->
+    <style name="CalcButton.Number.Tablet">
+        <item name="android:background">@drawable/btn_number_ripple_tablet</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="CalcButton.Operator.Tablet">
+        <item name="android:background">@drawable/btn_operator_ripple_tablet</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="CalcButton.Function.Tablet">
+        <item name="android:background">@drawable/btn_function_ripple_tablet</item>
+        <item name="android:textColor">@color/text_function</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="CalcButton.Equals.Tablet">
+        <item name="android:background">@drawable/btn_equals_ripple_tablet</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+</resources>

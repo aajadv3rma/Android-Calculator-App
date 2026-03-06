@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_primary">#000000</color>
+    <color name="background_secondary">#0A0A0A</color>
+    <color name="background_card">#1C1C1E</color>
+
+    <color name="btn_number_bg">#2C2C2E</color>
+    <color name="btn_number_pressed">#3A3A3C</color>
+    <color name="btn_function_bg">#636366</color>
+    <color name="btn_function_pressed">#8E8E93</color>
+
+    <color name="gradient_orange_start">#FF9F0A</color>
+    <color name="gradient_orange_end">#FF375F</color>
+    <color name="gradient_green_start">#30D158</color>
+    <color name="gradient_teal_end">#5AC8FA</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#98989F</color>
+    <color name="text_tertiary">#48484A</color>
+    <color name="text_function">#000000</color>
+
+    <color name="display_text">#FFFFFF</color>
+    <color name="display_expression">#98989F</color>
+
+    <color name="ripple_light">#40FFFFFF</color>
+    <color name="ripple_dark">#20FFFFFF</color>
+
+    <color name="history_card_bg">#1C1C1E</color>
+    <color name="history_result">#FF9F0A</color>
+    <color name="delete_red">#FF453A</color>
+    <color name="divider">#38383A</color>
+</resources>

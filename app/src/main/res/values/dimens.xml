@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_size">76dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_radius">38dp</dimen>
+
+    <dimen name="text_display_large">64sp</dimen>
+    <dimen name="text_expression">28sp</dimen>
+    <dimen name="text_button">32sp</dimen>
+    <dimen name="text_button_small">26sp</dimen>
+    <dimen name="text_history_expression">16sp</dimen>
+    <dimen name="text_history_result">24sp</dimen>
+
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="display_padding_horizontal">24dp</dimen>
+    <dimen name="display_padding_vertical">32dp</dimen>
+    <dimen name="button_grid_padding">8dp</dimen>
+    <dimen name="history_item_padding">20dp</dimen>
+    <dimen name="history_item_radius">16dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="icon_button_size">44dp</dimen>
+</resources>
